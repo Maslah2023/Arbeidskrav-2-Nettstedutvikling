@@ -16,6 +16,9 @@
 .topnav {
     overflow: hidden;
     background-color: #333;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
   }
   
   .topnav a {
@@ -50,3 +53,70 @@
     text-align: center;
     padding: 10px 0;
   }
+
+
+
+/* Dette er styling av hovedinnholdet i home.html */
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  .menu-card-container{
+    max-width:300px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+
+  .menu-card {
+    position: relative;
+    background: #fff;
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    padding: 20px;
+  }
+
+  .menu-image {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
+  }
+
+
+
+
+  .menu-text{
+    margin-top: 10px;
+  }
+
+  .menu-title a{
+    color: green;
+    text-decoration: none;
+    font-size: 24px;
+  }
+
+
+
+  .menu-category{
+    display: inline-block;
+    margin-top: 5px;
+    background-color: #6c757d;
+    color: white;
+    padding: 3px 8px;
+    font-size: 12px;
+    border-radius: 10px;
+  }
+  
+/* .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}  */
